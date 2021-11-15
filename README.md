@@ -1,7 +1,7 @@
-# AdaptiveFrameLayout
+# AdaptiveFrameLayout [![Release](https://jitpack.io/v/Kleberf65/AdaptiveFrameLayout.svg)](https://jitpack.io/#Kleberf65/AdaptiveFrameLayout/1.0.0)
 Simple library for creating a container with skin proportion for trailer applications
 ## Installing
-Step 1. Add the JitPack repository to your build file, Add it in your root build.gradle at the end of repositories or settings.gradle for new features Android Studio:
+Step 1. Add the JitPack repository to your build file, Add it in your root `build.gradle` at the end of repositories or `settings.gradle` for new features Android Studio:
 
 ```gradle
 // root build.gradle
@@ -50,7 +50,7 @@ Set attributes AdaptiveFrameLayout programatically
 ## Custom Attributes
 | Command        | Description           
 | ------------- |:-------------:|
-| afl_screenDivider     | Defines the number of items that the layout will be divided in width |
-| afl_incrementWidth      | Adds value to width to adjust as you want      |
-| afl_heightPercentage | Defines the extra percentage to be added in height relative to width      |
-| afl_isMatchParent | Defines if the container has to use all available width      |
+| `afl_screenDivider`     | Defines the number of items that the layout will be divided in width |
+| `afl_incrementWidth`      | Adds value to width to adjust as you want      |
+| `afl_heightPercentage` | Defines the extra percentage to be added in height relative to width      |
+| `afl_isMatchParent` | Defines if the container has to use all available width      |
