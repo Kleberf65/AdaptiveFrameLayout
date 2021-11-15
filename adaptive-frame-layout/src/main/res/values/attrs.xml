@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AdaptiveFrameLayout">
+        <attr name="afl_screenDivider" format="integer" />
+        <attr name="afl_incrementWidth" format="integer" />
+        <attr name="afl_heightPercentage" format="integer" />
+        <attr name="afl_isMatchParent" format="boolean" />
+    </declare-styleable>
+
+</resources>
