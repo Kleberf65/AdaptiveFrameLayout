@@ -36,8 +36,15 @@ Add AdaptiveFrameLayout into your XML
 
 ```xml
 <br.kleberf65.widget.AdaptiveFrameLayout
+        android:id="@+id/adaptive_frame_layout_by_xml"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/teal_200"
+        app:afl_heightPercentage="45"
+        app:afl_incrementWidth="10"
+        app:afl_isMatchParent="false"
+        app:afl_screenDivider="5" />
 ```
 Set attributes AdaptiveFrameLayout programatically
 
